@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".VentanaPrincipal.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/logo_basico_kicklist" />
+
+    <LinearLayout
+        android:id="@+id/ly1"
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:background="@drawable/bordes_layout_azul_oscuro"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtInput_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_pwd"
+                android:layout_width="318dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bordes_layout_blancos"
+                android:drawableLeft="@drawable/baseline_lock_outline_24"
+                android:drawablePadding="10dp"
+                android:hint="**********"
+                android:inputType="text|textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_registrarse"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:backgroundTint="@color/azul_oscuro"
+            android:text="¿Olvidaste la contraseña?" />
+
+        <Button
+            android:id="@+id/btn_iniciar_sesion"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#4169E1"
+            android:text="Iniciar Sesión" />
+
+    </LinearLayout>
+
+</LinearLayout>

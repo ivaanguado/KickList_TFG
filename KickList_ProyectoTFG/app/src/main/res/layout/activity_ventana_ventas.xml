@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".VentanasVentas.VentanaVentas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/azul_oscuro"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/btn_volver_ventas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="-180"
+            app:srcCompat="@drawable/salir" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/azul_oscuro"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_realizar_venta"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/white"
+            android:text="Realizar Venta"
+            android:textColor="@color/azul_oscuro" />
+
+        <Button
+            android:id="@+id/btn_ver_historial_ventas"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="Ver Historial Ventas"
+            android:textColor="@color/azul_oscuro" />
+
+        <Button
+            android:id="@+id/btn_consignar"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/white"
+            android:text="Consignar Productos"
+            android:textColor="@color/azul_oscuro" />
+
+        <Button
+            android:id="@+id/btn_ver_productos_consignados"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/white"
+            android:text="Ver Productos Consginados"
+            android:textColor="@color/azul_oscuro" />
+    </LinearLayout>
+</LinearLayout>

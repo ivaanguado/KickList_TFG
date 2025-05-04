@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KickList_ProyectoTFG"
+        tools:targetApi="31">
+        <activity
+            android:name=".VentanaPrincipal.VentanaManualUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".VentanasEstadisticas.VentanaEstadisticasZapatilla"
+            android:exported="false" />
+        <activity
+            android:name=".EstilosRecyclerView.EstiloRecycler_prods_tienda"
+            android:exported="false" />
+        <activity
+            android:name=".VentanasVentas.VentanaTienda"
+            android:exported="false" />
+        <activity
+            android:name=".EstilosGridView.EstiloGridView_tiendas"
+            android:exported="false" />
+        <activity
+            android:name=".VentanasVentas.VentanaRealizarConsigna"
+            android:exported="false" />
+        <activity
+            android:name=".EstilosGridView.EstiloGridView_HistorialVentas"
+            android:exported="false" />
+        <activity
+            android:name=".EstilosRecyclerView.EstiloRecyclerView_DetallesVenta"
+            android:exported="false" />
+        <activity
+            android:name=".EstilosRecyclerView.EstiloRecyclerView_Carrito"
+            android:exported="false" />
+        <activity
+            android:name=".VentanasVentas.VentanaCarrito"
+            android:exported="false" />
+        <activity
+            android:name=".VentanasVentas.VentanaDetallesVenta"
+            android:exported="false" />
+        <activity
+            android:name=".EstilosRecyclerView.EstiloRecyclerView_StockProductoVender"
+            android:exported="false" />
+        <activity
+            android:name=".VentanasVentas.VentanaStockProductoVender"
+            android:exported="false" />
+        <activity
+            android:name=".EstilosGridView.EstiloGridViewRealizarVenta"
+            android:exported="false" />
+        <activity
+            android:name=".EstilosRecyclerView.EstiloRecyclerView_VerStockDetallado"
+            android:exported="false" />
+        <activity
+            android:name=".VentanasInventario.VentanaVerStockDetallado"
+            android:exported="false" />
+        <activity
+            android:name=".EstilosRecyclerView.EstiloRecyclerView_ModificarStockProducto"
+            android:exported="false" />
+        <activity
+            android:name=".VentanasInventario.VentanaModificarStockProducto"
+            android:exported="false" />
+        <activity
+            android:name=".VentanasVentas.VentanaResumenVentas"
+            android:exported="false" />
+        <activity
+            android:name=".VentanasEstadisticas.VentanaConsultarDatosZapatilla"
+            android:exported="false" />
+        <activity
+            android:name=".VentanasEstadisticas.VentanaGrafico_BeneficioMes"
+            android:exported="false" />
+        <activity
+            android:name=".VentanasEstadisticas.VentanaGrafico_UdsMes"
+            android:exported="false" />
+        <activity
+            android:name=".VentanasVentas.VentanaVerProductosConsignados"
+            android:exported="false" />
+        <activity
+            android:name=".VentanasVentas.VentanaConsignar"
+            android:exported="false" />
+        <activity
+            android:name=".VentanasVentas.VentanaHistorialVentas"
+            android:exported="false" />
+        <activity
+            android:name=".VentanasVentas.VentanaRealizarVenta"
+            android:exported="false" />
+        <activity
+            android:name=".VentanasInventario.VentanaModificarStock"
+            android:exported="false" />
+        <activity
+            android:name=".EstilosGridView.EstiloGridView_ModificarStock"
+            android:exported="false" />
+        <activity
+            android:name=".VentanasInventario.VentanaAniadirProducto"
+            android:exported="false" />
+        <activity
+            android:name=".EstilosGridView.EstiloGridViewVerStock"
+            android:exported="false" />
+        <activity
+            android:name=".VentanasInventario.VentanaVerStock"
+            android:exported="false" />
+        <activity
+            android:name=".VentanasInventario.VentanaInventario"
+            android:exported="false" />
+
+        <activity
+            android:name=".VentanasEstadisticas.VentanaEstadisticas"
+            android:exported="false" />
+        <activity
+            android:name=".VentanasVentas.VentanaVentas"
+            android:exported="false" />
+        <activity
+            android:name=".VentanaPrincipal.VentanaCambiarContrasenia"
+            android:exported="false" />
+        <activity
+            android:name=".VentanaPrincipal.Menu"
+            android:exported="false" />
+        <activity
+            android:name=".VentanaPrincipal.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VentanaPrincipal.MainActivity"
+            android:exported="true"></activity>
+    </application>
+
+</manifest>
